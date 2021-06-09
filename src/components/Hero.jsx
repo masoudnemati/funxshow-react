@@ -1,4 +1,5 @@
 import React from "react";
+import Arrow from "../assets/images/arrow.svg";
 
 const Hero = () => {
   return (
@@ -146,16 +147,18 @@ const Hero = () => {
           text-align: center;
           padding-bottom: 80px;
         }
+
         .join {
           color: white;
           font-size: 2.2rem;
           margin-top: 60px;
           height: 200px;
-          background-image: url("/images/arrow.svg");
+          background-image: url(${Arrow});
           background-repeat: no-repeat;
           background-size: 270px;
           background-position: 110px 10px;
         }
+
         .fun,
         .show {
           animation: animate 0.5s linear infinite;

@@ -1,4 +1,9 @@
 import React from "react";
+import Twitch from "../assets/images/twitch_PNG31.png";
+import Aparat from "../assets/images/logo--color-white--without_text.svg";
+import StreamBG from "../assets/images/streams-bg.svg";
+import StreamLeft from "../assets/images/streams-left-bg.png";
+import StreamRight from "../assets/images/streams-right-bg.png";
 
 const Stream = () => {
   return (
@@ -14,11 +19,7 @@ const Stream = () => {
               rel="noopener noreferrer"
             >
               <div className="aparat">
-                <img
-                  width="175"
-                  src="/images/logo--color-white--without_text.svg"
-                  alt="aparat"
-                />
+                <img width="175" src={Aparat} alt="aparat" />
               </div>
             </a>
             <a
@@ -27,7 +28,7 @@ const Stream = () => {
               rel="noopener noreferrer"
             >
               <div className="twitch">
-                <img width="200" src="/images/twitch_PNG31.png" alt="twitch" />
+                <img width="200" src={Twitch} alt="twitch" />
               </div>
             </a>
           </div>
@@ -41,8 +42,8 @@ const Stream = () => {
           padding: 170px 5vw 150px 5vw;
           margin: 0 auto;
           margin-top: -160px;
-          background: url("/images/streams-left-bg.png") left center no-repeat,
-            url("/images/streams-right-bg.png") right center no-repeat;
+          background: url(${StreamLeft}) left center no-repeat,
+            url(${StreamRight}) right center no-repeat;
           background-size: 500px, 515px;
           max-width: 1200px;
         }
@@ -53,7 +54,7 @@ const Stream = () => {
           color: #00c6b6;
           font-style: normal;
           font-size: 3rem;
-          background-image: url("/images/streams-bg.svg");
+          background-image: url(${StreamBG});
           background-repeat: no-repeat;
           background-size: 300px;
           background-position: center bottom;

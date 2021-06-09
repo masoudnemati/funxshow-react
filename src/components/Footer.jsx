@@ -1,4 +1,7 @@
 import React from "react";
+import FooterRight from "../assets/images/footer-right-img.png";
+import Gift from "../assets/images/icons8-gift-48.png";
+import LinkTo from "../assets/images/icons8-link-64.png";
 
 const Footer = () => {
   return (
@@ -28,7 +31,7 @@ const Footer = () => {
           </p>
 
           <p className="rights">
-            &copy; 2020-{new Date().getFullYear()} funxshow.vercel.app
+            &copy; 2020-{new Date().getFullYear()} funxshow.ir
             <br />
             All rights reserved.
           </p>
@@ -51,7 +54,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-right">
-          <img src="/images/footer-right-img.png" height="300" alt="footer" />
+          <img src={FooterRight} height="300" alt="footer" />
         </div>
       </footer>
 
@@ -110,7 +113,7 @@ const Footer = () => {
           font-size: 2.2rem;
           padding: 15px 15px 10px 48px;
           background-color: #34322d;
-          background-image: url("/images/icons8-gift-48.png");
+          background-image: url(${Gift});
           background-position: 7px 10px;
           background-repeat: no-repeat;
           background-size: 40px;
@@ -137,7 +140,7 @@ const Footer = () => {
         }
         .atyal:hover,
         .newvertex:hover {
-          background-image: url("/images/icons8-link-64.png");
+          background-image: url(${LinkTo});
           background-position: top right;
           background-repeat: no-repeat;
           background-size: 20px;
