@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/funxshow-react/static/css/main.9cbeb8b4.chunk.css",
-    "main.js": "/funxshow-react/static/js/main.e818c0f1.chunk.js",
-    "main.js.map": "/funxshow-react/static/js/main.e818c0f1.chunk.js.map",
+    "main.css": "/funxshow-react/static/css/main.118ef90f.chunk.css",
+    "main.js": "/funxshow-react/static/js/main.ea8aa6b3.chunk.js",
+    "main.js.map": "/funxshow-react/static/js/main.ea8aa6b3.chunk.js.map",
     "runtime-main.js": "/funxshow-react/static/js/runtime-main.23697c2c.js",
     "runtime-main.js.map": "/funxshow-react/static/js/runtime-main.23697c2c.js.map",
     "static/js/2.662e7e05.chunk.js": "/funxshow-react/static/js/2.662e7e05.chunk.js",
@@ -10,13 +10,20 @@
     "static/js/3.4043b541.chunk.js": "/funxshow-react/static/js/3.4043b541.chunk.js",
     "static/js/3.4043b541.chunk.js.map": "/funxshow-react/static/js/3.4043b541.chunk.js.map",
     "index.html": "/funxshow-react/index.html",
-    "static/css/main.9cbeb8b4.chunk.css.map": "/funxshow-react/static/css/main.9cbeb8b4.chunk.css.map",
-    "static/js/2.662e7e05.chunk.js.LICENSE.txt": "/funxshow-react/static/js/2.662e7e05.chunk.js.LICENSE.txt"
+    "static/css/main.118ef90f.chunk.css.map": "/funxshow-react/static/css/main.118ef90f.chunk.css.map",
+    "static/js/2.662e7e05.chunk.js.LICENSE.txt": "/funxshow-react/static/js/2.662e7e05.chunk.js.LICENSE.txt",
+    "static/media/arrow.f05aa096.svg": "/funxshow-react/static/media/arrow.f05aa096.svg",
+    "static/media/footer-right-img.f8717ea1.png": "/funxshow-react/static/media/footer-right-img.f8717ea1.png",
+    "static/media/logo--color-white--without_text.3ee411a3.svg": "/funxshow-react/static/media/logo--color-white--without_text.3ee411a3.svg",
+    "static/media/streams-bg.2e4c1e0c.svg": "/funxshow-react/static/media/streams-bg.2e4c1e0c.svg",
+    "static/media/streams-left-bg.3ee68cad.png": "/funxshow-react/static/media/streams-left-bg.3ee68cad.png",
+    "static/media/streams-right-bg.973130fc.png": "/funxshow-react/static/media/streams-right-bg.973130fc.png",
+    "static/media/twitch_PNG31.793f46bd.png": "/funxshow-react/static/media/twitch_PNG31.793f46bd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.23697c2c.js",
     "static/js/2.662e7e05.chunk.js",
-    "static/css/main.9cbeb8b4.chunk.css",
-    "static/js/main.e818c0f1.chunk.js"
+    "static/css/main.118ef90f.chunk.css",
+    "static/js/main.ea8aa6b3.chunk.js"
   ]
 }
